@@ -1,4 +1,4 @@
-package pkg
+package kilo
 
 import (
 	"bufio"
