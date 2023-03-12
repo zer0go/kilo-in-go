@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/zer0go/kilo-in-go/pkg/kilo"
+	"github.com/zer0go/kilo-in-go/pkg"
 	"os"
 )
 
@@ -11,7 +11,7 @@ func main() {
 		fileName = os.Args[1]
 	}
 
-	kilo.EditWithKilo(kilo.InputConfig{
+	pkg.EditWithKilo(pkg.InputConfig{
 		Data:     []byte{},
 		FileName: fileName,
 	})
